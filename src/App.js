@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Link } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
+import AboutUs from "./Sections/AboutUs/AboutUs";
+import Introduction from "./Sections/Introduction/Introduction";
+import GetApp from "./Sections/GetApp/GetApp";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
+    <>
+    <Navbar />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="typewriter">Digital learning platform</h1><br/>
+      <div className="started">
+        <Link to="/courses">
+          GET STARTED
+          <div className="wave" />
+        </Link>
+      </div>
+      <img
+        src={
+          "https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?w=2000"
+        }
+        className="animated"
+        alt="image"
+        height="500vh"
+      />
     </div>
+    <Introduction/>
+    <AboutUs />
+    <GetApp />
+    <Footer />
+    </>
   );
 }
 
