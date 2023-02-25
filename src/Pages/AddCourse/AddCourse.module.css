@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpaperaccess.com/full/1397714.jpg");
+    height: 110vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+    align-items: center;
+    color: white;
+}
+#num{
+    width: 8vw;
+}
+#link{
+    height: fit-content;
+}
+#title{
+    width:28vw ;
+}
+.inpt{
+    width: 20vw;
+    height: 4vh;
+    padding: 1rem;
+}
+.btn{
+    border-radius: 5px;
+    width: 8rem;
+    height: 1.9rem;
+    background-color: rgb(8, 163, 8);
+    color: white;
+    border: none;
+    margin-top: 3vh;
+}

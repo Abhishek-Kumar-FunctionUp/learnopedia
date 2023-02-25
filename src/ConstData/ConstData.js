@@ -65,7 +65,7 @@ export const lesson = [
   {
     id: 1,
     lession: 1,
-    title: "Kotlin - Complete Course From Scratch | Tutorial #0",
+    title: "Kotlin - Complete Course From Scratch",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/NosAkIKgA4Y",
@@ -74,7 +74,7 @@ export const lesson = [
   {
     id: 1,
     lession: 2,
-    title: "What is Kotlin? Introduction To Kotlin Tutorial | Tutorial #1",
+    title: "What is Kotlin? Introduction To Kotlin",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/vhfzN69ALpY",
@@ -84,7 +84,7 @@ export const lesson = [
     id: 1,
     lession: 3,
     title:
-      "Kotlin - Development Environment Setup Tutorial | Install Intelli J | Tutorial #2",
+      "Kotlin - Development Environment Setup Tutorial | Install Intelli J",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/1RuNijeB_yc",
@@ -93,8 +93,7 @@ export const lesson = [
   {
     id: 1,
     lession: 4,
-    title:
-      "Kotlin - Hello World Program | Compilation & ByteCode | Tutorial #3",
+    title: "Kotlin - Hello World Program | Compilation & ByteCode",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/IdeqQE_POXo",
@@ -103,8 +102,7 @@ export const lesson = [
   {
     id: 1,
     lession: 5,
-    title:
-      "Variables & Data Types in Kotlin Tutorial | var & val | Tutorial #4",
+    title: "Variables & Data Types in Kotlin Tutorial",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/bq-6IJ5-klk",
@@ -114,7 +112,7 @@ export const lesson = [
     id: 1,
     lession: 6,
     title:
-      "Kotlin Operators Tutorial | Arithmetic & Relational Operators Kotlin | Tutorial #5",
+      "Kotlin Operators Tutorial | Arithmetic & Relational Operators Kotlin",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/iPdVy8sAzX8",
@@ -123,7 +121,7 @@ export const lesson = [
   {
     id: 1,
     lession: 7,
-    title: "Kotlin Logical Operators & Short Circuiting Tutorial | Tutorial #6",
+    title: "Kotlin Logical Operators & Short Circuiting",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/n8fcjc9QU1M",
@@ -132,7 +130,7 @@ export const lesson = [
   {
     id: 1,
     lession: 8,
-    title: "Kotlin If Else Statement and Expression Tutorial | Tutorial #7",
+    title: "Kotlin If Else Statement and Expression",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/S6QHTZNbE7E",
@@ -141,8 +139,7 @@ export const lesson = [
   {
     id: 1,
     lession: 9,
-    title:
-      "Kotlin When Statement & Expression | Ranges in Kotlin Tutorial | Tutorial #8",
+    title: "Kotlin When Statement & Expression | Ranges",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/izzJqv9cfJg",
@@ -151,7 +148,7 @@ export const lesson = [
   {
     id: 1,
     lession: 10,
-    title: "Kotlin While & Do-While Loops Tutorial | Tutorial #9",
+    title: "Kotlin While & Do-While Loops",
     details:
       "This is an introductory video of Kotlin covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Kotlin. Everything is explained in Hindi.",
     video: "https://youtu.be/xmYXGZPouek",
@@ -160,8 +157,7 @@ export const lesson = [
   {
     id: 2,
     lession: 1,
-    title:
-      "C# Tutorial 1 - Introduction | First C# Program | C# Vs Java | C# Tutorial in Hindi for Beginners",
+    title: "Introduction",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/tOA_8E-_Urw",
@@ -170,8 +166,7 @@ export const lesson = [
   {
     id: 2,
     lession: 2,
-    title:
-      "C# if – if else – if else if ladder – EECTutorials | C# Tutorial for Beginners in Hindi",
+    title: "if – if else – if else if ladder – EECTutorials",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/zCMHl0UGimE",
@@ -180,8 +175,7 @@ export const lesson = [
   {
     id: 2,
     lession: 3,
-    title:
-      "C# tutorial 4 - Switch Statement | Simple Calculator Program | C# Tutorial for Beginners in Hindi",
+    title: "Switch Statement | Simple Calculator Program",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/_v9wTjMcptc",
@@ -190,8 +184,7 @@ export const lesson = [
   {
     id: 2,
     lession: 4,
-    title:
-      "C# tutorial 5 - Loops in C Sharp - FOR, While, Do-While, Nested Loops - Code Examples",
+    title: "Loops in C Sharp",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/5xegmbvDFzQ",
@@ -200,8 +193,7 @@ export const lesson = [
   {
     id: 2,
     lession: 5,
-    title:
-      "C# tutorial 6 - Break and Continue Statement in Loops and Nested Loops | C Sharp Tutorial in Hindi",
+    title: "Break and Continue Statement in Loops and Nested Loops",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/UcIroViXluA",
@@ -210,8 +202,7 @@ export const lesson = [
   {
     id: 2,
     lession: 6,
-    title:
-      "C# Tutorial 7 - GOTO Statement in C Sharp - C# Tutorial for Beginners in Hindi",
+    title: "GOTO Statement",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/2FUosKil-GA",
@@ -220,8 +211,7 @@ export const lesson = [
   {
     id: 2,
     lession: 7,
-    title:
-      "C# Tutorial 8 - Functions in C Sharp - Function with No Parameter, With Parameter, Return Statement",
+    title: "Functions in C Sharp",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/1xzMpwe8RgU",
@@ -230,8 +220,7 @@ export const lesson = [
   {
     id: 2,
     lession: 8,
-    title:
-      "C# Tutorial 9 - Ways to Call Function - Call by Value, Call by Reference - C# Tutorial Hindi",
+    title: "Ways to Call Function - Call by Value, Call by Reference",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/sjl0gWddPwc",
@@ -240,8 +229,7 @@ export const lesson = [
   {
     id: 2,
     lession: 9,
-    title:
-      "C# Tutorial 10 - OUT Parameter in C Sharp Method - C# Tutorial for Beginners in Hindi",
+    title: "OUT Parameter",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/EGNG_tu4cf4",
@@ -250,8 +238,7 @@ export const lesson = [
   {
     id: 2,
     lession: 10,
-    title:
-      "C# Tutorial 11 - Objects and Classes in C Sharp - C# Tutorial for Beginners Hindi",
+    title: "Objects and Classes",
     details:
       "This is an introductory video of C# covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about C#. Everything is explained in Hindi.",
     video: "https://youtu.be/dV1bC6lEIhU",
@@ -260,8 +247,7 @@ export const lesson = [
   {
     id: 3,
     lession: 1,
-    title:
-      "Introduction to Java + Installing Java JDK and IntelliJ IDEA for Java",
+    title: "Introduction to Java",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/ntLJmHOJ0ME",
@@ -270,8 +256,7 @@ export const lesson = [
   {
     id: 3,
     lession: 2,
-    title:
-      "Basic Structure of a Java Program: Understanding our First Java Hello World Program",
+    title: "Basic Structure of a Java Program",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/zIdg7hkqNE0",
@@ -280,7 +265,7 @@ export const lesson = [
   {
     id: 3,
     lession: 3,
-    title: "Java Tutorial: Variables and Data Types in Java Programming",
+    title: "Variables and Data Types in Java Programming",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/X0zdAG7gfgs",
@@ -289,7 +274,7 @@ export const lesson = [
   {
     id: 3,
     lession: 4,
-    title: "Java Tutorial: Literals in Java",
+    title: "Literals in Java",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/b2VJmyarV3I",
@@ -298,7 +283,7 @@ export const lesson = [
   {
     id: 3,
     lession: 5,
-    title: "Java Tutorial: Getting User Input in Java",
+    title: "Getting User Input in Java",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/HRfmLqqvzUs",
@@ -307,7 +292,7 @@ export const lesson = [
   {
     id: 3,
     lession: 6,
-    title: "Java Programming Exercise 1: CBSE Board Percentage Calculator",
+    title: "CBSE Board Percentage Calculator",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/C5me8SeuW9M",
@@ -316,8 +301,7 @@ export const lesson = [
   {
     id: 3,
     lession: 7,
-    title:
-      "Java Tutorial: Chapter 1- Practice Set | Java Practice Problems With Solution",
+    title: "Java Practice Problems With Solution",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/d9oF3MNzmuk",
@@ -326,7 +310,7 @@ export const lesson = [
   {
     id: 3,
     lession: 8,
-    title: "Java Tutorial: Operators, Types of Operators & Expressions in Java",
+    title: "Operators, Types of Operators & Expressions in Java",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/pnn2VTSr1Ko",
@@ -335,7 +319,7 @@ export const lesson = [
   {
     id: 3,
     lession: 9,
-    title: "Java Tutorial: Associativity of Operators in Java",
+    title: "Associativity of Operators in Java",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/vh16INx13h4",
@@ -344,8 +328,7 @@ export const lesson = [
   {
     id: 3,
     lession: 10,
-    title:
-      "Java Tutorial: Data Type of Expressions & Increment/Decrement Operators",
+    title: "Data Type of Expressions & Increment/Decrement Operators",
     details:
       "This is an introductory video of Java covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Java. Everything is explained in Hindi.",
     video: "https://youtu.be/xGsUs3XQ0t0",
@@ -354,8 +337,7 @@ export const lesson = [
   {
     id: 4,
     lession: 1,
-    title:
-      "JavaScript Tutorials in Hindi Part 1: Introduction to JavaScript in Hindi",
+    title: "Introduction to JavaScript",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/uGRZ2CzkFUo",
@@ -364,8 +346,7 @@ export const lesson = [
   {
     id: 4,
     lession: 2,
-    title:
-      "JavaScript Tutorials in Hindi Part 2: Variable in JavaScript & Identifiers in JavaScript in Hindi",
+    title: "Variable & Identifiers in JavaScript ",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/1qrHzBF5pWI",
@@ -374,8 +355,7 @@ export const lesson = [
   {
     id: 4,
     lession: 3,
-    title:
-      "JavaScript Tutorials in Hindi Part 3: Data Types in JavaScript in Hindi | Null vs Undefined in JS",
+    title: "Data Types in JavaScript in Hindi",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/8fozBN2OMqM",
@@ -384,8 +364,7 @@ export const lesson = [
   {
     id: 4,
     lession: 4,
-    title:
-      "JavaScript Tutorials in Hindi Part 4: Operators in JavaScript in Hindi | JavaScript operators",
+    title: "JavaScript operators",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/q3S8zKnTY0Q",
@@ -394,8 +373,7 @@ export const lesson = [
   {
     id: 4,
     lession: 5,
-    title:
-      "JavaScript Tutorials in Hindi Part 5: if else statement in JavaScript | conditional statements in JS",
+    title: "if else statement in JavaScript",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/qMWkqrF1i7c",
@@ -404,8 +382,7 @@ export const lesson = [
   {
     id: 4,
     lession: 6,
-    title:
-      "JavaScript Tutorials in Hindi Part 6: Assignment operator & Comparison operators in javascript Hindi",
+    title: "Assignment operator & Comparison operators",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/CRhM5P4UrK8",
@@ -414,8 +391,7 @@ export const lesson = [
   {
     id: 4,
     lession: 7,
-    title:
-      "JavaScript Tutorial in Hindi Part 7: Switch Statement in JavaScript in Hindi | Switch Case in JS",
+    title: "Switch Case in JS",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/UW7oxAkrDOw",
@@ -424,8 +400,7 @@ export const lesson = [
   {
     id: 4,
     lession: 8,
-    title:
-      "JavaScript Tutorials in Hindi Part 8: While Loop in JavaScript in Hindi | While Statement in JS",
+    title: "While Statement in JS",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/2SqIfjae5jo",
@@ -434,8 +409,7 @@ export const lesson = [
   {
     id: 4,
     lession: 9,
-    title:
-      "JavaScript Tutorials in Hindi Part 9: do while loop in JavaScript in Hindi",
+    title: "do while loop in JavaScript",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/-eXWxlpvkZE",
@@ -444,8 +418,7 @@ export const lesson = [
   {
     id: 4,
     lession: 10,
-    title:
-      "JavaScript Tutorials in Hindi Part 10: For Loop in JavaScript in Hindi",
+    title: "For Loop in JavaScript",
     details:
       "This is an introductory video of JavaScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about JavaScript. Everything is explained in Hindi.",
     video: "https://youtu.be/use_eNupUQE",
@@ -454,8 +427,7 @@ export const lesson = [
   {
     id: 5,
     lession: 1,
-    title:
-      "What is Python | Python Programming | Complete Introduction to Python for Beginners",
+    title: "What is Python?",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/OZIRAavoGng",
@@ -464,7 +436,7 @@ export const lesson = [
   {
     id: 5,
     lession: 2,
-    title: "Download & Instalation of Python on Windows | Python for Beginners",
+    title: "Download & Instalation of Python on Windows",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/fS1Lh5TwWN8",
@@ -473,8 +445,7 @@ export const lesson = [
   {
     id: 5,
     lession: 3,
-    title:
-      "What is Pycharm and How to Install Pycharm for Python on Windows | Python for Beginners to Pro",
+    title: "What is Pycharm?",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/18oZPfHYfeE",
@@ -483,8 +454,7 @@ export const lesson = [
   {
     id: 5,
     lession: 4,
-    title:
-      "Create your first Project on Python Using Print Function | Python Tutorial",
+    title: "Print Function",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/MfGfMWsvgCc",
@@ -493,8 +463,7 @@ export const lesson = [
   {
     id: 5,
     lession: 5,
-    title:
-      "What is Variable in Python and How to Create Variables in Python | Python Tutorials",
+    title: "What is Variable in Python?",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/o-pRdr8IMWg",
@@ -503,8 +472,7 @@ export const lesson = [
   {
     id: 5,
     lession: 6,
-    title:
-      "What is String in Python and How to Concatenate Two String Variables",
+    title: "String Variables",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/ig3fRo9hlMo",
@@ -513,8 +481,7 @@ export const lesson = [
   {
     id: 5,
     lession: 7,
-    title:
-      "What are Operators in Python | Explain Arithmetic Operators in Python | Python Tutorial",
+    title: "What are Operators in Python",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/iyOVgQDkx1E",
@@ -523,8 +490,7 @@ export const lesson = [
   {
     id: 5,
     lession: 8,
-    title:
-      "What are Assignment Operators in Python | Explained in Hindi For Beginners",
+    title: "What are Assignment Operators in Python",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/rnK45SKWwVg",
@@ -533,8 +499,7 @@ export const lesson = [
   {
     id: 5,
     lession: 9,
-    title:
-      "What are Comparison Operators in Python | Explained in Hindi For Beginners",
+    title: "What are Comparison Operators in Python",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/Aamih6LtMNM",
@@ -543,8 +508,7 @@ export const lesson = [
   {
     id: 5,
     lession: 10,
-    title:
-      "What are Logical Operators in Python | Explained in Hindi For Beginners",
+    title: "What are Logical Operators in Python",
     details:
       "This is an introductory video of Python covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Python. Everything is explained in Hindi.",
     video: "https://youtu.be/TeCjHTYWNAw",
@@ -553,7 +517,7 @@ export const lesson = [
   {
     id: 6,
     lession: 1,
-    title: "Ruby Programming Tutorial-1-Installing Ruby & RubyMain",
+    title: "Installing Ruby & RubyMain",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/6GMPxYsvTss",
@@ -562,7 +526,7 @@ export const lesson = [
   {
     id: 6,
     lession: 2,
-    title: "Ruby Programming Tutorial-2-Print And puts",
+    title: "Print And puts",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/hsnhvlrMD-g",
@@ -571,7 +535,7 @@ export const lesson = [
   {
     id: 6,
     lession: 3,
-    title: "Ruby Programming Tutorial-3-Arithmetic Operators",
+    title: "Arithmetic Operators",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/XNXERNINc_s",
@@ -580,7 +544,7 @@ export const lesson = [
   {
     id: 6,
     lession: 4,
-    title: "Ruby Programming Tutorial-4-if, elsif, else",
+    title: "if, elsif, else",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/D1JilUe6z6c",
@@ -589,7 +553,7 @@ export const lesson = [
   {
     id: 6,
     lession: 5,
-    title: "Ruby Programming Tutorial-5-while And while modifier",
+    title: "while And while modifier",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/VAZBvrN2qwQ",
@@ -598,7 +562,7 @@ export const lesson = [
   {
     id: 6,
     lession: 6,
-    title: "Ruby Programming Tutorial-6-for loop, break And next",
+    title: "for loop, break And next",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/SdrD2kPZ6VA",
@@ -607,7 +571,7 @@ export const lesson = [
   {
     id: 6,
     lession: 7,
-    title: "Ruby Programming Tutorial-7-Arrays",
+    title: "Arrays",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/XLF9VhWorfM",
@@ -616,8 +580,7 @@ export const lesson = [
   {
     id: 6,
     lession: 8,
-    title:
-      "Ruby Programming Tutorial-8-Formatting capitalize, upcase, downcase, reverse",
+    title: "Formatting capitalize, upcase, downcase, reverse",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/xil3yQ8fo_4",
@@ -626,7 +589,7 @@ export const lesson = [
   {
     id: 6,
     lession: 9,
-    title: "Ruby Programming Tutorial-9-Methods",
+    title: "Methods",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/YkU6xKPGfyk",
@@ -635,7 +598,7 @@ export const lesson = [
   {
     id: 6,
     lession: 10,
-    title: "Ruby Programming Tutorial-10-Variable Number of Parameters",
+    title: "Variable Number of Parameters",
     details:
       "This is an introductory video of Ruby covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Ruby. Everything is explained in Hindi.",
     video: "https://youtu.be/zTnQ3y43i3M",
@@ -644,7 +607,7 @@ export const lesson = [
   {
     id: 7,
     lession: 1,
-    title: "Installing Xcode and Hello World In Swift | Swift",
+    title: "Installing Xcode and Hello World In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/oNGrEOzGpRU",
@@ -653,7 +616,7 @@ export const lesson = [
   {
     id: 7,
     lession: 2,
-    title: "Variables In Swift | Learn Swift",
+    title: "Variables In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/rKxZvYZQoCk",
@@ -662,7 +625,7 @@ export const lesson = [
   {
     id: 7,
     lession: 3,
-    title: "Constants In Swift | Learn Swift",
+    title: "Constants In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/J_krcJW07iw",
@@ -671,7 +634,7 @@ export const lesson = [
   {
     id: 7,
     lession: 4,
-    title: "Data Types and Comments In Swift | Learn Swift Programming",
+    title: "Data Types and Comments In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/3aAxfQI22ck",
@@ -680,7 +643,7 @@ export const lesson = [
   {
     id: 7,
     lession: 5,
-    title: "String Data Type In Swift | Learn Swift Programming",
+    title: "String Data Type In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/T9nc1KjZXhk",
@@ -689,7 +652,7 @@ export const lesson = [
   {
     id: 7,
     lession: 6,
-    title: "String Interpolation In Swift | Learn Swift Programming",
+    title: "String Interpolation In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/2jLvKHO9sb4",
@@ -698,8 +661,7 @@ export const lesson = [
   {
     id: 7,
     lession: 7,
-    title:
-      "Implicit And Explicit Declaration In Swift | Learn Swift Programming",
+    title: "Implicit And Explicit Declaration In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/Ri1FqHK6SIk",
@@ -708,7 +670,7 @@ export const lesson = [
   {
     id: 7,
     lession: 8,
-    title: "If-Else Statement In Swift | Learn Swift Programming",
+    title: "If-Else Statement In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/sOBGxG-Un4I",
@@ -717,7 +679,7 @@ export const lesson = [
   {
     id: 7,
     lession: 9,
-    title: "Comparison Operators In Swift | Learn Swift Programming",
+    title: "Comparison Operators In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/AE82nQJx3YQ",
@@ -726,7 +688,7 @@ export const lesson = [
   {
     id: 7,
     lession: 10,
-    title: "Logical Operators In Swift | Learn Swift Programming",
+    title: "Logical Operators In Swift",
     details:
       "This is an introductory video of Swift covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about Swift. Everything is explained in Hindi.",
     video: "https://youtu.be/sATXEq5IiGM",
@@ -825,7 +787,7 @@ export const lesson = [
   {
     id: 9,
     lession: 1,
-    title: "TypeScript Hindi tutorial #1 Introduction",
+    title: "TypeScript Introduction",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/ucZRzCYQRQo",
@@ -834,7 +796,7 @@ export const lesson = [
   {
     id: 9,
     lession: 2,
-    title: "TypeScript Hindi tutorial #2 install",
+    title: "TypeScript install",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/-YwNuj_t-Kk",
@@ -843,7 +805,7 @@ export const lesson = [
   {
     id: 9,
     lession: 3,
-    title: "TypeScript Hindi tutorial #3 Make and run first program",
+    title: "TypeScript Make and run first program",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/bCXyQ1OLQxk",
@@ -852,7 +814,7 @@ export const lesson = [
   {
     id: 9,
     lession: 4,
-    title: "TypeScript hindi tutorial #4 basic tips for beginners",
+    title: "TypeScript basic tips for beginners",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/omUqffwJN8I",
@@ -861,7 +823,7 @@ export const lesson = [
   {
     id: 9,
     lession: 5,
-    title: "TypeScript Hindi tutorial #5 Types | number | string etc",
+    title: "TypeScript Types | number | string etc",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/KW_Ox4rKyD4",
@@ -870,7 +832,7 @@ export const lesson = [
   {
     id: 9,
     lession: 6,
-    title: "TypeScript Hindi tutorial #6 Array",
+    title: "TypeScript Array",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/Eb6kjrbkt3U",
@@ -879,7 +841,7 @@ export const lesson = [
   {
     id: 9,
     lession: 7,
-    title: "Typescript Hindi tutorial #7 Object",
+    title: "Typescript Object",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/prZprTicIQs",
@@ -888,7 +850,7 @@ export const lesson = [
   {
     id: 9,
     lession: 8,
-    title: "Typescript Hindi tutorial #8 Union types",
+    title: "Typescript Union types",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/kNYuyYKj94s",
@@ -897,7 +859,7 @@ export const lesson = [
   {
     id: 9,
     lession: 9,
-    title: "Typescript Hindi tutorial #9 Interface",
+    title: "Typescript Interface",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/32QylLKXrks",
@@ -906,7 +868,7 @@ export const lesson = [
   {
     id: 9,
     lession: 10,
-    title: "Typescript Hindi tutorial #10 function",
+    title: "Typescript function",
     details:
       "This is an introductory video of TypeScript covering everything from scratch. This tutorial series is targetted towards beginners who are new to programming or even if you are an experienced developer and want to know about TypeScript. Everything is explained in Hindi.",
     video: "https://youtu.be/mblaKPWM9NU",

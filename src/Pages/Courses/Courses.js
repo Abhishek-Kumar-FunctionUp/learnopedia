@@ -1,7 +1,6 @@
 import React from "react";
 import CustomButton from "../../Atom/CustomButton/CustomButton";
 import Navbar from "../../Components/Navbar/Navbar";
-import { course } from "../../ConstData/ConstData";
 import { useNavigate } from "react-router-dom";
 import style from "./Courses.module.css";
 import Footer from "../../Components/Footer/Footer";
@@ -10,6 +9,7 @@ import { myCourse } from "../../Recoil/Recoil";
 export default function Courses() {
   const nav = useNavigate();
   const [myData, setMyData] = useRecoilState(myCourse);
+  const getsCourses = JSON.parse(localStorage.getItem("courses"));
 
   function handleLesson(e) {
     console.log(e);
@@ -27,7 +27,7 @@ export default function Courses() {
         <Navbar />
         <h1 className={style.title}>Courses</h1>
         <div className={style.courseCard}>
-          {course.map(e =>
+          {getsCourses.map(e =>
             <div key={e.id} className={style.swing}>
               <img
                 src={e.thumbnail}

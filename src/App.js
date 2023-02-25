@@ -5,8 +5,20 @@ import AboutUs from "./Sections/AboutUs/AboutUs";
 import Introduction from "./Sections/Introduction/Introduction";
 import GetApp from "./Sections/GetApp/GetApp";
 import Footer from "./Components/Footer/Footer";
+import { course, lesson } from "./ConstData/ConstData";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(()=>{
+     if(localStorage.courses && localStorage.lessons){
+      const getCourses=JSON.parse(localStorage.getItem("courses"))
+       const getLessons= JSON.parse( localStorage.getItem("lessons"))
+     }else {
+      localStorage.setItem("courses",JSON.stringify(course))
+      localStorage.setItem("lessons",JSON.stringify(lesson))
+     }
+  },[])
   return (
     <>
     <Navbar />

@@ -23,6 +23,7 @@ export default function Navbar() {
       <div className={style.options}>
         <Link to="/courses">Courses</Link>
         <Link to="/mycourses">My Courses</Link>
+        <Link to="/addcourse">AddCourse</Link>
         <Link to="/dashboard">Dashboard</Link>
       </div>
     </div>

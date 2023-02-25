@@ -1,5 +1,9 @@
 import React from "react";
-import { AiOutlineInstagram, AiOutlineFacebook } from "react-icons/ai";
+import {
+  AiOutlineInstagram,
+  AiOutlineFacebook,
+  AiOutlineLinkedin
+} from "react-icons/ai";
 import { FiYoutube } from "react-icons/fi";
 import { RxTwitterLogo } from "react-icons/rx";
 import { BsJournalCode } from "react-icons/bs";
@@ -31,6 +35,7 @@ export default function Footer() {
           <FiYoutube />
           <AiOutlineFacebook />
           <RxTwitterLogo />
+          <AiOutlineLinkedin />
         </div>
       </div>
       <label className={Style.boxIcon}>
