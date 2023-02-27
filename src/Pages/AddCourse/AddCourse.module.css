@@ -3,14 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://wallpaperaccess.com/full/1397714.jpg");
+  background-image: url("https://imgur.com/OmQhHJM.jpg");
   height: 100vh;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  margin-top: 10vh;
   align-items: center;
   color: white;
   border-radius: 10px;
@@ -65,4 +64,33 @@
   color: white;
   border: none;
   margin-top: 3vh;
+}
+
+@media only screen and (max-width: 1200px)   {
+  .form{
+    height: 100vh;
+    width: 100%;
+    
+  }
+  
+  .inpt{
+    width: 56vw;
+  }
+
+  #num{
+    width: 12vw
+  }
+  
+  .form h4{
+    margin-top: 20vh;
+  }
+
+  #title {
+    width: 68vw;
+  }
+
+  .thumbnail, .vdo{
+    width: 68vw;
+  }
+
 }

@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  align-items: center;
 }
 
 .swing {
@@ -24,6 +25,8 @@
   float: left;
   box-shadow: 5px 5px 10px black;
   color: rgb(219, 181, 9);
+  justify-content: center;
+  align-items: center;
 }
 
 .swing h5 {
@@ -41,7 +44,7 @@
 .search {
   border-radius: 100px;
   border: 1px solid white;
-  width: 18vw;
+  width: fit-content;
   height: 5vh;
   padding-left: 1vw;
   padding-top: 0.5vh;
@@ -68,9 +71,8 @@
   font-family: Colonna MT;
   margin-top: 20vh;
   margin-bottom: 8vh;
-  margin-left: 45vw;
   padding: 1rem;
-  width: 15vw;
+  width: fit-content;
   justify-content: center;
   border-radius: 25px;
   background-color: rgb(7, 197, 181);
@@ -95,7 +97,6 @@
   color: white;
   border: none;
   margin-top: 3vh;
-  margin-left: 6vw;
 }
 
 .btn:hover {
@@ -154,3 +155,29 @@
     transform: rotate(-3deg);
   }
 }
+
+
+@media only screen and (max-width: 900px)   {
+
+ .courseCard{
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .background{
+  height: 400vh;
+ }
+  }
+
+  @media only screen and (max-width: 600px)   {
+
+    .courseCard{
+     grid-template-columns: 1fr ;
+     width: 50vw;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .background{
+      height: 500vh;
+     }
+     }

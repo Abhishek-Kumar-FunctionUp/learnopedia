@@ -8,9 +8,12 @@ import Footer from "./Components/Footer/Footer";
 import { course, lesson } from "./ConstData/ConstData";
 import { useEffect } from "react";
 import { adminLoggedin, newUserLoggedIn } from "./Recoil/Recoil";
+import { useRecoilValue } from "recoil";
 
 function App() {
   const nav = useNavigate();
+  const isAdminLoggedIn = useRecoilValue(adminLoggedin)
+  const isUserLoggedIn = useRecoilValue(newUserLoggedIn)
 
   useEffect(() => {
     if (localStorage.courses && localStorage.lessons) {
@@ -23,7 +26,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (!newUserLoggedIn || !adminLoggedin) {
+    if (!isUserLoggedIn && !isAdminLoggedIn) {
       nav("/");
     }
   });

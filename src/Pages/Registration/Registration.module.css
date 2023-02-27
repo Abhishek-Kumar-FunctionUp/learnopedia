@@ -10,7 +10,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  margin-top: 10vh;
   align-items: center;
   color: white;
   border-radius: 10px;
@@ -36,3 +35,21 @@
   padding: 1rem;
   border-radius: 6px;
 }
+
+
+@media only screen and (max-width: 900px)   {
+
+  .form{
+    height: 100vh;
+    width: 100%;
+    
+  }
+  
+  .inpt{
+    width: 60vw;
+  }
+  
+  .form h4{
+    margin-top: 20vh;
+  }
+  }

@@ -3,12 +3,13 @@ import { Link, useNavigate } from "react-router-dom";
 import { BsJournalCode } from "react-icons/bs";
 import style from "./Navbar.module.css";
 import { useRecoilValue } from "recoil";
-import { adminLoggedin, LoggedinUser } from "../../Recoil/Recoil";
+import { admin, adminLoggedin, LoggedinUser } from "../../Recoil/Recoil";
 
 export default function Navbar() {
   const nav = useNavigate();
   const adminLoggedinStatus = useRecoilValue(adminLoggedin);
   const LoggedinUserDetails = useRecoilValue(LoggedinUser);
+  const AdminDetails = useRecoilValue(admin);
   function handleLogoRedirect() {
     nav("/home");
   }
@@ -30,12 +31,6 @@ export default function Navbar() {
               AddCourse
             </Link>
           : ""}
-        <Link to="/register" className={style.link}>
-          Register
-        </Link>
-        <Link to="/" className={style.link}>
-          Login
-        </Link>
         <img
           src="https://img.freepik.com/premium-vector/brunette-man-avatar-portrait-young-guy-vector-illustration-face_217290-1035.jpg?w=2000"
           height="40vh"
@@ -45,7 +40,7 @@ export default function Navbar() {
           }}
         />
         <p style={{ color: "white" }}>
-          {LoggedinUserDetails.Name}
+          {!adminLoggedinStatus ? LoggedinUserDetails.Name : AdminDetails.Name}
         </p>
       </div>
     </div>

@@ -14,11 +14,8 @@ export default function Lessons() {
   useEffect(() => {
     const lessonData = JSON.parse(localStorage.getItem("dynamicLesson"));
     const getsLessons = JSON.parse(localStorage.getItem("lessons"));
-    console.log(lessonData, "i m lessonData");
-    console.log(getsLessons, "hjdhhjh");
     const renderData = getsLessons.filter(x => x.id === lessonData.id);
     setRender(renderData);
-    console.log(renderData, "iiiiiiiii");
   }, []);
 
   function handleVideo(x) {
@@ -61,15 +58,19 @@ export default function Lessons() {
         )}
         {show
           ? <div className={Style.video}>
-              <h4>{video.title}</h4>
+              <h4>
+                {video.title}
+              </h4>
               <ReactPlayer
                 url={video.video}
                 width="45vw"
                 height="60vh"
                 controls={true}
                 className={Style.player}
-              />{" "}
-              <p>{video.details}</p>
+              />
+              <p>
+                {video.details}
+              </p>
             </div>
           : " "}
       </div>
