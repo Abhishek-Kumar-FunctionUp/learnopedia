@@ -12,7 +12,7 @@ export default function Introduction() {
         <img
           className={style.img}
           src="https://i.pinimg.com/originals/5a/14/2f/5a142f3e0eb5dcf54f2990099440198a.png"
-          alt="image"
+          alt="intro"
         />
         <div className={style.text}>
           <h6 style={{ color: "rgb(7, 197, 181)", marginBottom: "3vh" }}>
@@ -34,7 +34,7 @@ export default function Introduction() {
               Online Learning
             </li>
           </ul>
-          <Link to="/home">
+          <Link to="/courses">
             <CustomButton className={style.btn} text="GET STARTED" />
           </Link>
         </div>

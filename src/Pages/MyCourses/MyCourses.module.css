@@ -1,30 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 .background {
-  background-image: url("https://wallpaperaccess.com/full/1397714.jpg");
+  background-image: url("https://imgur.com/OmQhHJM.jpg");
   height: 300vh;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.search {
+  border-radius: 100px;
+  border: 1px solid white;
+  width: 18vw;
+  height: 5vh;
+  padding-left: 1vw;
+  padding-top: 0.5vh;
+  background-color: black;
+  margin-top: 17vh;
+  margin-left: 4vw;
+  color: white;
+  position: absolute;
+}
+
+.searchbar {
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
 .swing {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  border: 1px solid;
   border-radius: 50px 1px;
   border: 6px solid rgb(7, 197, 181);
   box-shadow: 6px 6px 6px 6px grey;
   color: rgb(219, 181, 9);
   margin-right: 4vw;
-  margin-top: 25vh;
+  margin-top: 10vh;
   text-align: center;
   animation: swing ease-in-out 1s infinite alternate;
   transform-origin: center -20px;
   float: left;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
 .swing img {
   border: 5px solid #f8f8f8;
   display: block;
 }
+
 .swing:after {
   content: '';
   position: absolute;
@@ -38,6 +70,7 @@
   border-right: none;
   transform: rotate(45deg);
 }
+
 /* nail */
 .swing:before {
   content: '';
@@ -59,28 +92,30 @@
     transform: rotate(-3deg);
   }
 }
+
 .courseCard {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10vh;
-  /* margin-top: 25vh; */
   margin-left: 6vw;
   margin-bottom: 20vh;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
 }
-/* .title {
+
+.title {
   text-align: center;
   color: rgb(7, 197, 181);
-  font-family: Algerian;
-  margin-bottom: 8vh;
-  margin-top: 15vh;
-  width: 15vw;
+  font-family: Colonna MT;
+  margin-top: 20vh;
+  padding: 1rem;
+  margin-left: 45vw;
+  width: fit-content;
   justify-content: center;
   border-radius: 25px;
-  background-color:rgb(7, 197, 181); 
-  color:white;
-} */
+  background-color: rgb(7, 197, 181);
+  color: white;
+}
 
 .thumbnail {
   border-radius: 1px 50px;
@@ -92,7 +127,16 @@
   font-family: 'Ubuntu', sans-serif;
   margin-left: 6vw;
 }
+
 .swing:hover {
   box-shadow: 5px 5px 10px rgba(197, 197, 197, 0.5);
   border: 6px solid rgb(219, 181, 9);
+}
+
+.swing h5 {
+  font-weight: bold;
+}
+
+.swing h5:hover {
+  cursor: pointer;
 }

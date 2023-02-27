@@ -31,11 +31,41 @@ export default function Footer() {
           <h6>Accessibilty statement</h6>
         </div>
         <div className={Style.socialLogo}>
-          <AiOutlineInstagram />
-          <FiYoutube />
-          <AiOutlineFacebook />
-          <RxTwitterLogo />
-          <AiOutlineLinkedin />
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineInstagram />
+          </a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FiYoutube />
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineFacebook />
+          </a>
+          <a
+            href="https://twitter.com/home?lang=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <RxTwitterLogo />
+          </a>
+          <a
+            href="https://in.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}<AiOutlineLinkedin />
+          </a>
         </div>
       </div>
       <label className={Style.boxIcon}>

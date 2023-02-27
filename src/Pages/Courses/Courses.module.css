@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 .background {
-  background-image: url("https://wallpaperaccess.com/full/1397714.jpg");
-  height: 300vh;
+  background-image: url("https://imgur.com/OmQhHJM.jpg");
+  height: 320vh;
 }
+
 .main {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
+
 .swing {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  border: 1px solid;
   border-radius: 50px 1px;
   border: 6px solid rgb(7, 197, 181);
   margin-right: 4vw;
@@ -21,27 +22,54 @@
   animation: swing ease-in-out 1s infinite alternate;
   transform-origin: center -20px;
   float: left;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px black;
   color: rgb(219, 181, 9);
 }
+
 .swing h5 {
   font-weight: bold;
 }
+
 .courseCard {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10vh;
   margin-left: 6vw;
   margin-bottom: 20vh;
-  /* font-family: 'Ubuntu', sans-serif; */
 }
+
+.search {
+  border-radius: 100px;
+  border: 1px solid white;
+  width: 18vw;
+  height: 5vh;
+  padding-left: 1vw;
+  padding-top: 0.5vh;
+  background-color: black;
+  margin-top: 17vh;
+  margin-left: 4vw;
+  position: absolute;
+  color: white;
+}
+
+.searchbar {
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
 .title {
   text-align: center;
   color: rgb(7, 197, 181);
   font-family: Colonna MT;
-  margin-top: 15vh;
+  margin-top: 20vh;
   margin-bottom: 8vh;
   margin-left: 45vw;
+  padding: 1rem;
   width: 15vw;
   justify-content: center;
   border-radius: 25px;
@@ -53,39 +81,50 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
 }
+
 .thumbnail {
   border-radius: 1px 50px;
   margin: 2vh;
 }
 
 .btn {
-  width: 10vw;
-  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
+  width: 8rem;
+  height: 1.9rem;
+  background-color: rgb(8, 163, 8);
+  color: white;
+  border: none;
+  margin-top: 3vh;
   margin-left: 6vw;
 }
+
 .btn:hover {
   cursor: grab;
 }
+
 .swing h5:hover {
   cursor: pointer;
   font-weight: bolder;
   color: white;
 }
+
 .swing:hover {
   box-shadow: 5px 5px 10px rgba(197, 197, 197, 0.5);
   border: 6px solid rgb(219, 181, 9);
   color: rgb(7, 197, 181);
 }
+
 .swing img {
   border: 5px solid #f8f8f8;
   display: block;
 }
+
 .swing:after {
   content: '';
   position: absolute;
   width: 20px;
   height: 20px;
-  border: 1px solid #999;
+  border: 1px solid #9b5800;
   top: -10px;
   left: 50%;
   z-index: 0;
@@ -93,6 +132,7 @@
   border-right: none;
   transform: rotate(45deg);
 }
+
 /* nail */
 .swing:before {
   content: '';
@@ -103,7 +143,7 @@
   left: 52%;
   z-index: 5;
   border-radius: 50% 50%;
-  background: #000;
+  background: #807f7f;
 }
 
 @keyframes swing {

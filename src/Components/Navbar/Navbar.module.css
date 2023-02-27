@@ -3,37 +3,43 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  background-color: white;
+  background-color:  rgb(7, 197, 181);
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   box-shadow: 4px 4px 4px 4px rgb(155, 154, 154);
   z-index: 1;
+  color: white;
 }
-.search {
-  border-radius: 100px;
-  border: 1px solid black;
-  width: 18vw;
-  height: 5vh;
-  padding-left: 1vw;
-  padding-top: 0.5vh;
-}
+
 .logo {
   font-family: 'Ubuntu', sans-serif;
   font-size: larger;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
 }
+
 .logo:hover {
   cursor: pointer;
 }
-.searchbar {
-  border: none;
-}
-.searchbar:focus {
-  outline: none;
-}
+
 .options {
   display: flex;
   justify-content: space-evenly;
   width: 40vw;
   font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  font-weight: bolder ;
+  color: white;
+}
+
+.link{
+  text-decoration: none;
+  font-weight: bolder ;
+  color: white;
+}
+
+.link:active{
+  border-bottom: 2px solid white;
 }

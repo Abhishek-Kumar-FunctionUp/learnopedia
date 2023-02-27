@@ -47,7 +47,7 @@ export default function Lessons() {
           {" "}<AiOutlineBars /> Contents
         </h6>
         {render.map(x =>
-          <div>
+          <div key={Math.random()}>
             <div
               onClick={() => {
                 handleVideo(x);
@@ -61,11 +61,7 @@ export default function Lessons() {
         )}
         {show
           ? <div className={Style.video}>
-              <h4>
-                <u>
-                  {video.title}
-                </u>
-              </h4>
+              <h4>{video.title}</h4>
               <ReactPlayer
                 url={video.video}
                 width="45vw"

@@ -5,18 +5,20 @@
   background-color: black;
   color: white;
   font-family: 'Ubuntu', sans-serif;
-  margin-bottom: 2rem;
 }
+
 .boxownername {
   color: red;
   opacity: 0.6;
   font-family: 'Ubuntu', sans-serif;
 }
+
 .boxHeading {
   display: flex;
   justify-content: space-between;
   padding: 0rem 10.1rem 0rem 10.1rem;
 }
+
 .boxDesigned {
   display: flex;
   justify-content: center;
@@ -25,9 +27,11 @@
   padding: 2rem;
   color: rgb(109, 109, 109);
 }
+
 .social {
   display: flex;
 }
+
 .box2 {
   padding: 2rem;
   display: grid;
@@ -36,6 +40,7 @@
   color: rgb(109, 109, 109);
   width: 70vw;
 }
+
 .boxIcon {
   font-size: 2rem;
   font-weight: 5rem;
@@ -44,6 +49,7 @@
   color: rgb(109, 109, 109);
   text-align: center;
 }
+
 .socialLogo {
   font-size: 3rem;
   display: flex;
@@ -52,6 +58,7 @@
   color: rgb(109, 109, 109);
   gap: 2rem;
 }
+
 .boxFooter {
   display: flex;
   justify-content: center;

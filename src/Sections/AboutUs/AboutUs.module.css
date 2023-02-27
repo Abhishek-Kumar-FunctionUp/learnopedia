@@ -12,6 +12,11 @@
   height: 10vh;
   width: 20vw;
   font-family: 'Ubuntu', sans-serif;
+  transform: translate .2s;
+}
+
+.card1:hover {
+  transform: scale(1.1);
 }
 
 .card1 img {

@@ -109,8 +109,8 @@ export default function AddCourse() {
             onChange={e => setDetails(e.target.value)}
           />
         </p>
-        <p>
-          Add Thumbnail Link
+        <p className={style.thumbnail}>
+          Thumbnail
           <CustomInput
             id={style.link}
             className={style.inpt}
@@ -119,8 +119,8 @@ export default function AddCourse() {
             onChange={handleChange}
           />
         </p>
-        <p>
-          Add Video Link
+        <p className={style.vdo}>
+          Choose Video
           <CustomInput
             id={style.link}
             className={style.inpt}

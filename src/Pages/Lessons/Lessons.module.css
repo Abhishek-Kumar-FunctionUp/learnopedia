@@ -1,13 +1,15 @@
 .main {
-  background-image: url("https://wallpaperaccess.com/full/1397714.jpg");
+  background-image: url("https://imgur.com/OmQhHJM.jpg");
   height: 110vh;
   margin-top: -10vh;
 }
+
 .header {
   margin-bottom: 4vh;
   border-bottom: 2px solid black;
   color: rgb(23, 118, 207);
 }
+
 .frame {
   display: flex;
   flex-direction: column;
@@ -19,6 +21,7 @@
   color: balck;
   background-color: rgb(207, 199, 199);
 }
+
 .content {
   padding: 0.3rem;
   width: 35vw;
@@ -26,6 +29,7 @@
   color: black;
   border-bottom: 1px solid gray;
 }
+
 .content:hover {
   background-color: gray;
   cursor: pointer;
@@ -41,9 +45,11 @@
   background-color: rgb(207, 199, 199);
   border-radius: 25px;
 }
-.video h4{
+
+.video h4 {
   font-family: cursive;
   font-weight: bold;
+  border-bottom: 2px solid black;
 }
 
 .player {
