@@ -12,13 +12,16 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 import { useNavigate, Link } from "react-router-dom";
 
 export default function Login() {
+
+  
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
-  const Data = JSON.parse(localStorage.getItem("userDetails"));
+  const Data = JSON.parse(localStorage.getItem("userDetails")) || [];
   const adminRecoiled = useRecoilValue(admin);
   const setAdminLoggedin = useSetRecoilState(adminLoggedin);
   const setUserLoggedin = useSetRecoilState(newUserLoggedIn);
   const LoggedinUserDetails = useSetRecoilState(LoggedinUser);
+  const isAdminLoggedIn = useRecoilValue(adminLoggedin)
   const nav = useNavigate();
 
   function handleUserName(e) {

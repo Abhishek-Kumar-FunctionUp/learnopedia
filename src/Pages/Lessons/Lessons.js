@@ -2,14 +2,26 @@ import React, { useEffect, useState } from "react";
 import { MdOndemandVideo } from "react-icons/md";
 import { AiOutlineBars } from "react-icons/ai";
 import { BiArrowBack } from "react-icons/bi";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ReactPlayer from "react-player";
 import Style from "./Lessons.module.css";
+import { adminLoggedin, newUserLoggedIn } from "../../Recoil/Recoil";
+import { useRecoilValue } from "recoil";
 
 export default function Lessons() {
   const [render, setRender] = useState([]);
   const [show, setShow] = useState(false);
   const [video, setVideo] = useState("");
+  const nav = useNavigate()
+  const isAdminLoggedIn = useRecoilValue(adminLoggedin)
+  const isUserLoggedIn = useRecoilValue(newUserLoggedIn)
+
+
+  useEffect(() => {
+    if (!isUserLoggedIn && !isAdminLoggedIn) {
+      nav("/");
+    }
+  });
 
   useEffect(() => {
     const lessonData = JSON.parse(localStorage.getItem("dynamicLesson"));
@@ -35,8 +47,8 @@ export default function Lessons() {
           <h6>
             <Link to="/courses">
               <BiArrowBack />
-            </Link>{" "}
             Back to courses
+            </Link>
           </h6>
         </div>
         <p>Course Discussions</p>

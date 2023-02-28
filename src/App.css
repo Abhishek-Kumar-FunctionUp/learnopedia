@@ -11,6 +11,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -81,4 +82,19 @@
   45% {
     border-color: rgb(7, 197, 181);
   }
+}
+
+
+
+@media only screen and (max-width: 1270px)   {
+
+.App{
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.started{
+  margin-bottom: 2vh;
+}
+
 }

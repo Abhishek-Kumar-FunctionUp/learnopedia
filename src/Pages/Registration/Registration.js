@@ -13,7 +13,7 @@ export default function Registration() {
   const [EM, setEM] = useState("");
   const [PW, setPW] = useState("");
   const [US, setUS] = useState("");
-  const nav = useNavigate();
+  const nav = useNavigate()
 
   useEffect(() => {
     if (localStorage.getItem("userDetails")) {
@@ -54,7 +54,7 @@ export default function Registration() {
     if (pwRegEx.test(password)) {
       setPW("");
     } else if (!pwRegEx.test(password) && password !== " ") {
-      setPW("pw is Not Valid");
+      setPW("Password is Not Valid");
     } else if (
       EM === "Email is not valid" ||
       PW === "Password is not valid" ||
@@ -93,7 +93,7 @@ export default function Registration() {
         setEM("");
         setPW("");
         setUS("");
-        nav("/");
+        nav("/")
       }
     }
   }
@@ -152,11 +152,8 @@ export default function Registration() {
           text="Register"
           className={style.btn}
           onClick={handleRegister}
-        />
-        <br />
-        <h6>
-          Already Registered ? <Link to="/">LogIn</Link>
-        </h6>
+        /><br/>
+        <h6>Already Registered ? <Link to ="/">LogIn</Link></h6>
       </div>
     </div>
   );

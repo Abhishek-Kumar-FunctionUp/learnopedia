@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CustomButton from "../../Atom/CustomButton/CustomButton";
 import Navbar from "../../Components/Navbar/Navbar";
 import { useNavigate } from "react-router-dom";
 import style from "./Courses.module.css";
 import Footer from "../../Components/Footer/Footer";
-import { useRecoilState } from "recoil";
-import { myCourse } from "../../Recoil/Recoil";
+import { useRecoilState, useRecoilValue } from "recoil";
+import { adminLoggedin, myCourse, newUserLoggedIn } from "../../Recoil/Recoil";
 import SearchBar from "../../Atom/SearchBar/SearchBar";
 import { AiOutlineSearch } from "react-icons/ai";
 export default function Courses() {
@@ -13,6 +13,15 @@ export default function Courses() {
   const [myData, setMyData] = useRecoilState(myCourse);
   const getsCourses = JSON.parse(localStorage.getItem("courses"));
   const [search, setSearch] = useState("");
+  const isAdminLoggedIn = useRecoilValue(adminLoggedin)
+  const isUserLoggedIn = useRecoilValue(newUserLoggedIn)
+
+
+  useEffect(() => {
+    if (!isUserLoggedIn && !isAdminLoggedIn) {
+      nav("/");
+    }
+  });
 
   function handleLesson(e) {
     console.log(e);
@@ -33,7 +42,7 @@ export default function Courses() {
       <div className={style.main}>
         <Navbar />
 
-        <h1 className={style.title}>Courses</h1>
+        <h3 className={style.title}>Courses</h3>
         <div className={style.search}>
           <SearchBar
             placeholder="Search"

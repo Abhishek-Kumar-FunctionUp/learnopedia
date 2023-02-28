@@ -7,7 +7,9 @@ export default function GetApp(){
         <>
             <div className={Style.box}>
                 <div className={Style.mainBox}>
+                <div>
                     <img className={Style.img} src="https://static.uacdn.net/production/_next/static/images/newApp.png?q=75&fm=webp&w=640" alt="app"/>
+                    </div>
                     <div className={Style.content}>
                         <p className={Style.heading} >Get the app</p>
                         <p className={Style.heading2}>Download lessons and learn anytime,<br/>anywhere with the Learn-O-Pedia app</p>

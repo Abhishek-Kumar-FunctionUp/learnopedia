@@ -3,6 +3,9 @@ import CustomButton from "../../Atom/CustomButton/CustomButton";
 import CustomInput from "../../Atom/CustomInput/CustomInput";
 import style from "./AddCourse.module.css";
 import Navbar from "../../Components/Navbar/Navbar";
+import { useRecoilValue } from "recoil";
+import { useNavigate } from "react-router-dom";
+import { adminLoggedin, newUserLoggedIn } from "../../Recoil/Recoil";
 
 export default function AddCourse() {
   const [image, setImage] = useState(null);
@@ -15,6 +18,9 @@ export default function AddCourse() {
   const [details, setDetails] = useState("");
   const [coursesLocal, setCoursesLocal] = useState([]);
   const [lessonsLocal, setLessonsLocal] = useState([]);
+  const isAdminLoggedIn = useRecoilValue(adminLoggedin);
+  const isUserLoggedIn = useRecoilValue(newUserLoggedIn);
+  const nav = useNavigate();
 
   useEffect(() => {
     const getsCourses = JSON.parse(localStorage.getItem("courses"));
@@ -22,16 +28,25 @@ export default function AddCourse() {
     setCoursesLocal(getsCourses);
     setLessonsLocal(getsLessons);
   }, []);
+
+  useEffect(() => {
+    if (!isUserLoggedIn && !isAdminLoggedIn) {
+      nav("/");
+    }
+  });
+
   function handleChange(e) {
     if (e.target.files[0]) {
       setImage(URL.createObjectURL(e.target.files[0]));
     }
   }
+
   function handleChangeVideo(e) {
     if (e.target.files[0]) {
       setVideo(URL.createObjectURL(e.target.files[0]));
     }
   }
+
   function handleAdd() {
     const course = {
       id: id,

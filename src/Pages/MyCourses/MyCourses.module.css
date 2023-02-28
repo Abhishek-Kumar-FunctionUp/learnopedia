@@ -18,16 +18,17 @@
   width: fit-content;
   height: 5vh;
   padding: 0.5vh 1vw 0 1vw;
-  background-color: black;
-  margin-top: 17vh;
-  margin-left: 4vw;
+  padding-left: 1vw;
+  padding-top: 0.5vh;
+  background-color:  rgb(7, 197, 181);
+  margin-bottom: 4vh;
+  z-index: 1;
   color: white;
-  position: absolute;
 }
 
 .searchbar {
   border: none;
-  background-color: black;
+  background-color: rgb(7, 197, 181);;
   color: white;
 }
 
@@ -108,7 +109,8 @@
   color: rgb(7, 197, 181);
   font-family: Colonna MT;
   margin-top: 20vh;
-  padding: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 6vh;
   width: fit-content;
   justify-content: center;
   border-radius: 25px;

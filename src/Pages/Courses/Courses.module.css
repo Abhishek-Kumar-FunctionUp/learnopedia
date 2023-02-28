@@ -37,7 +37,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10vh;
-  margin-left: 6vw;
+  margin-left: 5vw;
   margin-bottom: 20vh;
 }
 
@@ -46,18 +46,18 @@
   border: 1px solid white;
   width: fit-content;
   height: 5vh;
+  padding: 0.5vh 1vw 0 1vw;
   padding-left: 1vw;
   padding-top: 0.5vh;
-  background-color: black;
-  margin-top: 17vh;
-  margin-left: 4vw;
-  position: absolute;
+  background-color:  rgb(7, 197, 181);
+  margin-bottom: 8vh;
+  z-index: 1;
   color: white;
 }
 
 .searchbar {
   border: none;
-  background-color: black;
+  background-color:  rgb(7, 197, 181);;
   color: white;
 }
 
@@ -71,9 +71,10 @@
   font-family: Colonna MT;
   margin-top: 20vh;
   margin-bottom: 8vh;
-  padding: 1rem;
+  padding: 0.5rem;
   width: fit-content;
   justify-content: center;
+  align-items: center;
   border-radius: 25px;
   background-color: rgb(7, 197, 181);
   color: white;

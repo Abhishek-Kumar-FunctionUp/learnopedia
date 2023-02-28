@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
       </div>
       <label className={Style.boxIcon}>
-        <BsJournalCode /> Learn - O - Pedia
+        <img src="https://imgur.com/z7v4JDN.png"  alt="logo" height="40vh"/> Learn - O - Pedia
       </label>
       <div className={Style.boxFooter}>
         <span>

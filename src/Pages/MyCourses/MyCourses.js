@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import { useRecoilValue } from "recoil";
-import { myCourse } from "../../Recoil/Recoil";
+import { adminLoggedin, myCourse, newUserLoggedIn } from "../../Recoil/Recoil";
 import { useNavigate } from "react-router-dom";
 import style from "./MyCourses.module.css";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -11,6 +11,15 @@ export default function MyCourses() {
   const recoiledData = useRecoilValue(myCourse);
   const [search, setSearch] = useState("");
   const nav = useNavigate();
+  const isAdminLoggedIn = useRecoilValue(adminLoggedin)
+  const isUserLoggedIn = useRecoilValue(newUserLoggedIn)
+
+
+  useEffect(() => {
+    if (!isUserLoggedIn && !isAdminLoggedIn) {
+      nav("/");
+    }
+  });
 
   function handleLesson(e) {
     console.log(e);
@@ -26,7 +35,7 @@ export default function MyCourses() {
     <div className={style.background}>
       <div className={style.main}>
         <Navbar />
-        <h1 className={style.title}>My Courses</h1>
+        <h3 className={style.title}>My Courses</h3>
         <div className={style.search}>
           <SearchBar
             placeholder="Search"
