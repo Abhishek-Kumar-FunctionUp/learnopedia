@@ -70,8 +70,19 @@
 }
 
 @media only screen and (max-width: 1200px)   {
-  
+
   .box{
+    margin-top: 30vh;
+  }
+  
+  .box2{
     display: none;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+
+  .box{
+    margin-top: 50vh;
   }
 }
